@@ -1,0 +1,187 @@
+* {
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+
+fieldset{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+.holder{
+    display:flex;
+    border:1px solid black;
+    width:max-content;
+}
+
+
+.two{
+    margin-top: 25px;
+}
+.divider{
+    height:50px;
+}
+
+input{
+    font-size: 24px;
+    text-align:center;
+    position: relative;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+/* 
+**
+a
+a
+a
+**
+*/
+.colored-divider{
+    height:50px;
+    background-color: #9b9797;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+#generate-button{
+    width:125px;
+    height:50px;
+    margin-bottom: 15px;
+}
+.number-input-holder-two{
+    margin-bottom:50px;
+}
+
+.things-holder{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    position:relative;
+    border:1px solid
+
+    
+}
+
+.number-input-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#nofencers{
+    width:50px;
+    margin:5px;
+}
+
+.group-holder{
+    border: 1px solid black;
+    width:fit-content;
+    /* margin-top: 50px;*/
+
+}
+
+.row-holder{
+    display: flex;
+    width: fit-content;
+}
+
+.name-box{
+    height:50px;
+    width:250px;
+    border:1px solid black;
+}
+
+.score-box{
+    height:50px;
+    width:50px;
+    border:1px solid black;
+}
+
+.disabled-score-box{
+    background-color: #9b9797;
+    width:50px;
+    height:50px;
+    border:1px solid black;
+}
+
+#calculate-button{
+    width:125px;
+    height:50px;
+    margin-top:15px;
+}
+
+
+
+
+
+/** TABLE CSS**/
+
+
+table{
+    border-collapse: collapse;
+    font-family: serif;
+    letter-spacing: 1px;
+
+}
+
+caption{
+    caption-side:top;
+    padding:10px;
+    font-weight: bold;
+
+}
+
+th,td{
+    border:1px solid;
+    padding: 2px 10px;
+}
+
+td{
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even){
+    background-color: aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+#tableau-button{
+    width:125px;
+    height:50px;
+    margin-top:15px;
+}
